@@ -1,0 +1,156 @@
+body {
+  background: #1c242d;
+}
+.box {
+  border: 1px solid #c4c4c4;
+  padding: 30px;
+  background: white;
+  margin: auto;
+  width: 350px;
+  position: static;
+}
+h1.box-logo a {
+  text-decoration:none;
+}
+h1.box-title {
+  color: #AEAEAE;
+  background: #f8f8f8;
+  width: 80%;
+  font-weight: 30px;
+  line-height: 30px;
+  font-size: 25px;
+  text-align: center;
+  padding: 0;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box-button {
+  border-radius: 5px;
+  background: #d2483c;
+  cursor: pointer; 
+  font-size: 18px;
+  width: 345px;
+  height: 51px;
+  padding: 0;
+  border: none;
+  color: white;
+  font-weight: bold;
+  position: static;
+}
+.box-register a
+{
+  text-decoration:none;
+  font-size:12px;
+  color:#666;
+}
+.box-input {
+  font-size: 16px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding-left: 10px;
+  border-radius: 5px;
+  width: 337px;
+  height: 50px;
+  position: static;
+  text-align: center;
+}
+.box-input:focus {
+    outline: none;
+    border-color:#5c7186;
+}
+.sucess {
+    text-align: center;
+    color: greenyellow;
+}
+.sucess a {
+    text-decoration: none;
+    color: #58aef7;
+}
+p.errorMessage {
+    background-color: #e66262;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+.box-disconect {
+    background: red;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    width: 120px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    font-weight: bold;
+}
+.box-button-login {
+  background-color: #d2483c; 
+  color: white;
+  cursor: pointer; 
+  font-size: larger;
+  border-radius: 30px;
+  width: 200px;
+  height: 60px;
+  padding: 0;
+  margin: auto;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+.login-button{
+  text-align: center;
+  align-content: center;
+}
+
+.milieu{
+    text-align: center;
+    padding: 0;
+    border: none;
+    color: white;
+
+}
+
+.gauche{
+    text-align: left;
+    color: white;
+    padding: 0;
+    border: none;
+}
+
+.error{
+background-color: red;
+border-radius: 5px;
+text-align: center;
+position: static;
+}
+
+@keyframes slidy 
+{
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    90% { left: -300%; }
+    95% { left: -400%; }
+    100% { left: -400%; }
+}
+
+input:focus {
+    outline:  none;
+}
+
+.nonSelectionnable
+{
+ -moz-user-select: none; /* Firefox */
+ -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+ -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+ user-select: none; /* Propriété standard */
+}
